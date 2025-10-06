@@ -19,6 +19,13 @@ Kun yritin mennä eteenpäin ohjelman kääntämiseen, huomasin että olinkin un
 
 <img width="498" height="40" alt="image" src="https://github.com/user-attachments/assets/5a12ff1d-d19c-4b81-9878-b41b025a31a0" />
 
+Huomasin myös, että kääntäjän käyttäminen ja scriptin ajaminen javalla loivat hello-kansioon minulle .class päätteisen tiedoston, jonka sisältö oli seuraavanlainen:
+
+<img width="1163" height="512" alt="image" src="https://github.com/user-attachments/assets/ce46ea84-f963-4510-ac77-13657f0cae1d" />
+
 ## C ##
 
-Lopulta pääsin 
+Lopulta pääsin käsiksi C-kielen opetteluun voidakseni kirjoittaa Hello Worldin. Luin 
+
+## Lähteet ##
+Karvinen, Linux palvelimet alkusyksy 2025. Luettavissa: https://terokarvinen.com/linux-palvelimet/
