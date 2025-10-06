@@ -1,12 +1,12 @@
 # Hei maailma #
-Viimeiseen isoon tehtäväpalautukseen olen päättänyt valita kolme kieltä, joista kahden käytöstä minulla on kokemusta ja yhden jota en ole käyttänyt aikaisemmin. Tutut kielet itselleni ovat java ja python. Tuntematon kieli on C. Valitsin tutut kielet kertauksen perusteella ja siksi että koodit näyttäisivät vähän erilaisilta. C-kieleen päädyin tuntemattoman kohdalla siksi, että se on kiehtonut minua kauan ja olen ymmärtänyt että sen potentiaali kirjoittaa nopeaa koodia on todella suuri.
+Viimeiseen isoon tehtäväpalautukseen olen päättänyt valita kolme kieltä, joista kahden käytöstä minulla on kokemusta ja yhden jota en ole käyttänyt aikaisemmin. Tutut kielet itselleni ovat java ja bash. Tuntematon kieli on C. Valitsin tutut kielet kertauksen perusteella ja siksi että koodit näyttäisivät vähän erilaisilta. C-kieleen päädyin tuntemattoman kohdalla siksi, että se on kiehtonut minua kauan ja olen ymmärtänyt että sen potentiaali kirjoittaa nopeaa koodia on todella suuri.
 
 ## Bash ja Shellscript ##
 Lähdin liikkeelle siitä, että loin kansion hello ``mkdir`` komennolla. Sinne lisäsin ensimmäiseksi bashillä tekemäni hello world ohjelman, joka toistaa vain echo-ohjelman sisällään:
 
 <img width="824" height="517" alt="image" src="https://github.com/user-attachments/assets/55b28b8c-f425-440a-9efd-c26eeb8ce180" />
 
-Kun bash-tiedosto oli luotu, tarkastelemalla tiedostoa huomasin, että tiedoston luominen itsessään nanolla ei sille oikeuksia suorittaa sen scriptiä. Tämän vuoksi annoin x-oikeuden ajaa scripti tälle hello.sh tiedostolle, jonka jälkeen se voitiin suorittaa. Sitten yritin ensin suorittaa scriptin kirjoittamalla tiedoston nimen mutta tajusin ohjeita luettuani, että scripti täytyy etsiä ``./``-alkuisesta polusta:
+Kun bash-tiedosto oli luotu, tarkastelemalla tiedostoa huomasin, että tiedoston luominen itsessään nanolla ei anna sille oikeuksia suorittaa sen scriptiä. Tämän vuoksi annoin x-oikeuden ajaa scripti tälle hello.sh tiedostolle, jonka jälkeen se voitiin suorittaa. Sitten yritin ensin suorittaa scriptin kirjoittamalla tiedoston nimen mutta tajusin ohjeita luettuani, että scripti täytyy etsiä ``./``-alkuisesta polusta:
 
 <img width="556" height="250" alt="image" src="https://github.com/user-attachments/assets/e543a26c-9565-4b0d-8a1c-873bc9434133" />
 
@@ -22,10 +22,27 @@ Kun yritin mennä eteenpäin ohjelman kääntämiseen, huomasin että olinkin un
 Huomasin myös, että kääntäjän käyttäminen ja scriptin ajaminen javalla loivat hello-kansioon minulle .class päätteisen tiedoston, jonka sisältö oli seuraavanlainen:
 
 <img width="1163" height="512" alt="image" src="https://github.com/user-attachments/assets/ce46ea84-f963-4510-ac77-13657f0cae1d" />
-
 ## C ##
+Lopulta pääsin käsiksi C-kielen opetteluun voidakseni kirjoittaa Hello Worldin. Kuten Javassa, myös C-kielessä tarvitaan oma kääntäjä, joka voidaan asentaa komennolla ``sudo apt install build-essential``. Tämän jälkeen kirjoitin ohjelman nimeltä hello.c, joka näytti tiedostona tältä:
 
-Lopulta pääsin käsiksi C-kielen opetteluun voidakseni kirjoittaa Hello Worldin. Luin 
+<img width="1162" height="515" alt="image" src="https://github.com/user-attachments/assets/643b53aa-1f80-4f1b-b524-6613a8ac7731" />
+
+Huomasin myös tässä kohtaa tehneeni virheen C-kielen syntaksissa kun yritin ajaa kääntämiskomentoa ``gcc hello.c -o hello``. Olin epähuomiossa kirjoittanut alussa tarvittavan stdio.h osan studiona, joten käännös ei toiminut. Korjattuani koodin käännös onnistui ja sen jälkeen minun oli mahdollista suorittaa hello.c:
+
+<img width="345" height="40" alt="image" src="https://github.com/user-attachments/assets/f61b92c9-fdf6-455a-8d27-557863003b9b" />
+## Kokonaan uusi ohjelma ##
+Päätin viimeiseksi ohjelmaksi, tehdä bashillä filesize nimisen ohjelman, joka kertoo hakemiston tiedostojen koon. Kaikki lähti liikkeelle ``nano filesize.sh``-komennosta, jonka jälkeen tiedoston sisälle tuli seuraavia asioita:
+
+<img width="1164" height="519" alt="image" src="https://github.com/user-attachments/assets/dd8dd9da-c514-4f90-9b36-01a8cfa0a2a0" />
+
+Kun scripti oli kirjoitettu ja sen oikeudet vielä korotettu ``chmod +x filesize.sh`` komennolla, pääsin testaamaan scriptiä ihan käytännössä:
+
+<img width="719" height="189" alt="image" src="https://github.com/user-attachments/assets/f26b0373-726d-4a5a-9025-9f6479ccbd59" />
 
 ## Lähteet ##
-Karvinen, Linux palvelimet alkusyksy 2025. Luettavissa: https://terokarvinen.com/linux-palvelimet/
+- Karvinen, Linux palvelimet alkusyksy 2025. Luettavissa: https://terokarvinen.com/linux-palvelimet/
+- Heinonen, Linux Shell Scripting Basics, 2025. Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-01102025.md
+- "Hello World!" for Solaris OS, Linux, and Mac OS X, 2024. Luettavissa: https://docs.oracle.com/javase/tutorial/getStarted/cupojava/unix.html
+
+
+- C Language Introduction, 2025. Luettavissa: https://www.geeksforgeeks.org/c/c-language-introduction/
