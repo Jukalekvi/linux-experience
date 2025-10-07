@@ -62,3 +62,10 @@ Tämän jälkeen sivusto toimi lukollisesti. Sain vielä kaverin testaamaan www.
 Testasin vielä SSL serveritestiä verkossa omalle domainille ja sain mielestäni tosi hyvän lopputuloksen:
 
 <img width="1104" height="652" alt="image" src="https://github.com/user-attachments/assets/eaee47a6-331f-4484-a897-7b64f37f1070" />
+
+# Lähteet #
+- Karvinen, Linux Palvelimet Alkusyksy 2025. Luettavissa: https://terokarvinen.com/linux-palvelimet/
+- Certbot, Certbot dokumentaatio 2018. Luettavissa: https://eff-certbot.readthedocs.io/en/stable/
+- Let's Encrypt, How It Works 2025. Luettavissa: https://letsencrypt.org/how-it-works/
+- Apache, SSL/TLS Strong Encryption: How-To 2025. Luettavissa: https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
+- Qualys inc, SSL Server Test 2025. Luettavissa: https://www.ssllabs.com/ssltest/
