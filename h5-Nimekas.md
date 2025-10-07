@@ -60,3 +60,6 @@ Google.com puolestaan näytti tältä:
 
 <img width="719" height="392" alt="image" src="https://github.com/user-attachments/assets/4e666536-c726-4507-b69e-5fa2befc4034" />
 
+# Lähteet #
+- Karvinen, Linux Palvelimet Alkusyksy 2025. Luettavissa: https://terokarvinen.com/linux-palvelimet/
+- Namecheap, Buy a domain and everything else you need 2025. Luettavissa: https://www.namecheap.com/
