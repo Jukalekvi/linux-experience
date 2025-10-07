@@ -91,3 +91,9 @@ Tein sitten vielä ``sudo nano /var/www/html/index.html`` komennon avulla seuraa
 Testasin sivujen toimivuuden vielä omalla puhelimellani, pöytäkoneellani ja lähetin verkko-osoitteen kaverilleni, joka varmisti että sivut toimivat. Nyt minulla on toimiva palvelin!
 
 <img width="1717" height="246" alt="image" src="https://github.com/user-attachments/assets/ef660c6d-5129-4bb9-adf9-24fc7e88693d" />
+
+# Lähteet #
+- Karvinen, Linux Palvelimet Alkusyksy 2025. Luettavissa: https://terokarvinen.com/linux-palvelimet/
+- Lehto, Teoriasta käytäntöön pilvipalvelimen avulla (h4) 2022. Luettavissa: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
+- Karvinen, First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS 2017. Luettavissa: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+- Upcloud, Upcloud palvelinympäristö 2025. Luettavissa: https://upcloud.com/
