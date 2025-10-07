@@ -54,4 +54,9 @@ sudo chmod -R 755 /var/www/hattu.example.com
 
 <img width="738" height="215" alt="image" src="https://github.com/user-attachments/assets/9a3f3163-bd58-4a9e-971c-6892844863ab" />
 
+## Lähteet ##
+- Karvinen, Linux Palvelimet Alkusyksy 2025. Luettavissa: https://terokarvinen.com/linux-palvelimet/
+- Karvinen, Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address 2018. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+- Apache, Name-based Virtual Host Support 2025. Luettavissa: https://httpd.apache.org/docs/2.4/vhosts/name-based.html
+- Curl, Curl-ohjelman käyttö. Luettavissa: https://curl.se/docs/
 Disabloin turhat sivustot ja enabloin muutoksiin tehdyt versiot. Hosteja tarkastellessa minulla ei ollut muita kuin nuo joita muokkasin mutta tästäkään huolimatta en saanut tehtävää eteenpäin. Jos joku keksii näihin ratkaisua, otan ehdotuksia mieluusti vastaan!
